@@ -1,0 +1,87 @@
+.answers {
+    padding-block: 20px;
+}
+.answers-pre-title {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.answers-pre-title img {
+    margin-left: 15px;
+}
+.answers-test {
+    font-size: 20px;
+    color: #6933dc;
+}
+.answers-title {
+    top: 60px;
+}
+.answers-info {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.answers-info span {
+    font-weight: 600;
+    color: #6933dc;
+}
+.answers-results {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.answers-result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.answers-result-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #333;
+}
+.answers-result-title span {
+    color: #6933dc;
+}
+.answers-result-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.answers-result-item {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+.answers-result-item:before {
+    content: '';
+    width: 20px;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    border: 3px solid #6933dc;
+    border-radius: 50%;
+    left: 0;
+}
+.answers-result-item.right {
+    color: #5FDC33;
+}
+.answers-result-item.right:before {
+    border: 6px solid currentColor;
+}
+.answers-result-item.right {
+    color: #5FDC33;
+}
+.answers-result-item.right:before {
+    border: 6px solid currentColor;
+}
+.answers-result-item.wrong {
+    color: #DC3333;
+}
+.answers-result-item.wrong:before {
+    border: 6px solid currentColor;
+}
+.answers-link {
+    margin-top: 60px;
+}
